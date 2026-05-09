@@ -6,7 +6,7 @@ channels:
   - defaults
 
 dependencies:
-  - python=3.11
+  - python=3.12
   - pip
 
   # Jupyter y soporte de notebooks
@@ -24,7 +24,7 @@ dependencies:
   - scipy
   - scikit-learn
 
-  # Utilidades bioinformaticas y de linea de comandos
+  # Utilidades bioinfo y linea de comandos
   - bwa
   - samtools
   - tree
@@ -35,10 +35,13 @@ dependencies:
   - findutils
   - tar
   - gzip
+  - vim
+  - nano
+  - git
 
-  # Utilidades opcionales pero practicas para docencia
+  # Otros 
   - ripgrep
 
-  # Paquetes pip no siempre disponibles o mas comodos por pip
+  # Paquetes pip
   - pip:
       - bash_kernel
