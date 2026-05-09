@@ -1,6 +1,8 @@
-# Curso de Bioinformatica con Python
+# Ejercicios prácticos para la asignatura Análisis masivo de datos biológicos (13682)
 
-Repositorio base para organizar notebooks, materiales y codigo auxiliar del curso.
+Este repositorio contiene todos los ejercicios prácticos preparados para la asignatura Análisis masivo de datos biológicos (13682), impartida en 3er curso del Grado en Biotecnología de la Universidad Politécnica de Valencia, durante el curso 2026. 
+
+*Npta: El repositorio no se corresponde con prácticas impartidas de facto durante el presente curso, sino que se ha desarrollado en el contexto de un concurso público para optar a una plaza de Ayudante Doctor. *
 
 ## Estructura
 
