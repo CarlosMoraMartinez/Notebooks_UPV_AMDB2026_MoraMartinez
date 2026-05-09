@@ -1,0 +1,44 @@
+name: amdb-bioinfo-course
+
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+
+  # Jupyter y soporte de notebooks
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - ipywidgets
+
+  # Librerias de Python usadas en las notebooks
+  - numpy
+  - pandas
+  - matplotlib
+  - biopython
+  - requests
+  - scipy
+  - scikit-learn
+
+  # Utilidades bioinformaticas y de linea de comandos
+  - bwa
+  - samtools
+  - tree
+  - gawk
+  - sed
+  - grep
+  - coreutils
+  - findutils
+  - tar
+  - gzip
+
+  # Utilidades opcionales pero practicas para docencia
+  - ripgrep
+
+  # Paquetes pip no siempre disponibles o mas comodos por pip
+  - pip:
+      - bash_kernel
